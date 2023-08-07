@@ -9,11 +9,11 @@ public class VehicleTest {
 		Scanner sc = new Scanner(System.in);
 		for (int i = 0; i < c.length; i++) {
 			System.out.println("CAR " +(i+1)+ " : ");
-			System.out.println("Enter company name : ");
+			System.out.println("Enter the name of the company : ");
 			String companyName = sc.next();
-			System.out.println("Enter mileage : ");
+			System.out.println("Enter the mileage of the car  : ");
 			double mileage = sc.nextDouble();
-			System.out.println("Enter price : ");
+			System.out.println("Enter the price of the car : ");
 			double price = sc.nextDouble();
 
 			c[i] = new Car(companyName, mileage, price);
